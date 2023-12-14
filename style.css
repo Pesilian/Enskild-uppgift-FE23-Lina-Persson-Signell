@@ -254,12 +254,6 @@ a:hover {
   }
 }
 
-/* .cards__large--last {
-  @media (max-width: 768px) {
-    margin-bottom: 150px;
-  }
-} */
-
 .cards__large--header {
   align-self: end;
   color: #fff;

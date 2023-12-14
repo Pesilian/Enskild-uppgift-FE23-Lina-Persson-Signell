@@ -1,0 +1,91 @@
+/* CONTACT.html */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444444;
+  font-family: "Fira sans", sans-serif;
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  background-image: url(Footer-background.png);
+}
+
+.form {
+  font-family: "Fira sans";
+  display: block;
+  margin: 30px auto 30px;
+  background-color: #fff;
+  width: 420px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.header {
+  color: #222;
+  font-size: 53px;
+  font-family: "Fira sans";
+  color: #080808;
+  margin: 30px 30px 0px;
+}
+
+.second__header {
+  color: #222;
+  font-size: 18px;
+  font-family: "Fira sans";
+  color: #080808;
+  margin: 0px 30px 20px;
+}
+
+.formquestion {
+  font-size: 12px;
+}
+
+.input {
+  width: 150px;
+  margin: 0px 0px 10px 30px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.mail__input {
+  width: 330px;
+  margin: 0px 0px 10px 30px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.message__input {
+  width: 330px;
+  height: 150px;
+  margin: 0px 30px 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.question {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px 35px 5px;
+}
+
+.send__button {
+  width: 200px;
+  height: 40px;
+  color: #222;
+  text-align: center;
+  font-family: "Fira sans";
+  font-size: 14px;
+  letter-spacing: 0.204px;
+  border-radius: 3px;
+  border: 1px solid #222;
+  background-color: #fff;
+  margin: 10px 0px 10px 30px;
+}
+
+div {
+  display: flex;
+}

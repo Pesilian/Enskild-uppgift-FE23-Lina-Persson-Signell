@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="contactstyle.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+  </head>
+  <body>
+    <section class="form">
+      <h1 class="header">Contact us</h1>
+      <h2 class="second__header">Well get back to you as soon as we can</h2>
+
+      <div>
+        <article class="firstname formquestion">
+          <h3 class="question">First name</h3>
+          <input type="text" class="input" name="Name" />
+        </article>
+
+        <article class="names formquestion">
+          <h3 class="question">Last name</h3>
+          <input type="text" class="input" name="Adress" />
+        </article>
+      </div>
+      <article class="mail formquestion">
+        <h3 class="question">Your e-mail</h3>
+        <input type="text" class="mail__input" name="Adress" />
+      </article>
+
+      <article class="message formquestion">
+        <h3 class="question">Message</h3>
+        <input type="text" class="message__input" name="Adress" />
+      </article>
+      <button
+        class="send__button"
+        type="button"
+        onclick="window.open('', '_self', ''); window.close();"
+      >
+        Send
+      </button>
+    </section>
+  </body>
+</html>

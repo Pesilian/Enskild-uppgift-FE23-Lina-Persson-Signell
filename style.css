@@ -115,7 +115,7 @@ a:hover {
   line-height: 150%;
   padding-bottom: 50px;
   @media (max-width: 768px) {
-    width: 400px;
+    width: 340px;
   }
 }
 

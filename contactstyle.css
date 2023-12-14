@@ -60,7 +60,8 @@ body {
   border: 1px solid #999;
   border-radius: 4px;
 }
-
+.contactform__question--phoneinput,
+.contactform__question--adressinput,
 .contactform__question--mailinput {
   width: 330px;
   margin: 0px 0px 10px 30px;

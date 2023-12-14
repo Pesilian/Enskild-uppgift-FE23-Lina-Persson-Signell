@@ -14,7 +14,7 @@ body {
   background-image: url(Footer-background.png);
 }
 
-.form {
+.contactform__ {
   font-family: "Fira sans";
   display: block;
   margin: 30px auto 30px;
@@ -24,7 +24,7 @@ body {
   border-radius: 5px;
 }
 
-.header {
+.contactform__header {
   color: #222;
   font-size: 53px;
   font-family: "Fira sans";
@@ -32,7 +32,7 @@ body {
   margin: 30px 30px 0px;
 }
 
-.second__header {
+.contactform__text {
   color: #222;
   font-size: 18px;
   font-family: "Fira sans";
@@ -40,25 +40,35 @@ body {
   margin: 0px 30px 20px;
 }
 
-.formquestion {
+.contactform__question {
   font-size: 12px;
 }
 
-.input {
+.contactform__question--text {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px 35px 5px;
+}
+
+.contactform__question--layout {
+  display: flex;
+}
+
+.contactform__question--nameinput {
   width: 150px;
   margin: 0px 0px 10px 30px;
   border: 1px solid #999;
   border-radius: 4px;
 }
 
-.mail__input {
+.contactform__question--mailinput {
   width: 330px;
   margin: 0px 0px 10px 30px;
   border: 1px solid #999;
   border-radius: 4px;
 }
 
-.message__input {
+.contactform__question--messageinput {
   width: 330px;
   height: 150px;
   margin: 0px 30px 10px;
@@ -66,13 +76,7 @@ body {
   border-radius: 4px;
 }
 
-.question {
-  font-size: 12px;
-  font-weight: 400;
-  margin: 0px 35px 5px;
-}
-
-.send__button {
+.contactform__button {
   width: 200px;
   height: 40px;
   color: #222;
@@ -84,8 +88,4 @@ body {
   border: 1px solid #222;
   background-color: #fff;
   margin: 10px 0px 10px 30px;
-}
-
-div {
-  display: flex;
 }

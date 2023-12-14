@@ -13,32 +13,48 @@
     <title>Contact us</title>
   </head>
   <body>
-    <section class="form">
-      <h1 class="header">Contact form</h1>
-      <h2 class="second__header">Well get back to you as soon as we can</h2>
+    <section class="contactform__">
+      <h1 class="contactform__header">Contact form</h1>
+      <h2 class="contactform__text">Well get back to you as soon as we can</h2>
 
-      <div>
-        <article class="firstname formquestion">
-          <h3 class="question">First name</h3>
-          <input type="text" class="input" name="Name" />
+      <div class="contactform__question--layout">
+        <article class="contactform__question">
+          <h3 class="contactform__question--text">First name</h3>
+          <input
+            type="text"
+            class="contactform__question--nameinput"
+            name="name"
+          />
         </article>
 
-        <article class="names formquestion">
-          <h3 class="question">Last name</h3>
-          <input type="text" class="input" name="Adress" />
+        <article class="contactform__question">
+          <h3 class="contactform__question--text">Last name</h3>
+          <input
+            type="text"
+            class="contactform__question--nameinput"
+            name="name"
+          />
         </article>
       </div>
-      <article class="mail formquestion">
-        <h3 class="question">Your e-mail</h3>
-        <input type="text" class="mail__input" name="Adress" />
+      <article class="contactform__question">
+        <h3 class="contactform__question--text">Your e-mail</h3>
+        <input
+          type="text"
+          class="contactform__question--mailinput"
+          name="Adress"
+        />
       </article>
 
-      <article class="message formquestion">
-        <h3 class="question">Message</h3>
-        <input type="text" class="message__input" name="Adress" />
+      <article class="contactform__question">
+        <h3 class="contactform__question--text">Message</h3>
+        <input
+          type="text"
+          class="contactform__question--messageinput"
+          name="message"
+        />
       </article>
       <button
-        class="send__button"
+        class="contactform__button"
         type="button"
         onclick="window.open('', '_self', ''); window.close();"
       >

@@ -13,7 +13,7 @@ body {
 
 /* HEADER */
 
-.header {
+.header__ {
   display: flex;
   justify-content: space-between;
   background-color: #eee;
@@ -21,7 +21,7 @@ body {
   height: 80px;
 }
 
-.header__logo {
+.header__img {
   height: 24px;
   width: 95px;
   flex-shrink: 0;
@@ -33,15 +33,15 @@ body {
   gap: 50px;
 }
 
+.header__menu :first-child {
+  color: #222;
+}
+
 .header__menu__item {
   color: #999;
   font-family: "Fira Sans";
   font-size: 12px;
   letter-spacing: 0.204px;
-}
-
-.header__menu :first-child {
-  color: #222;
 }
 
 a:link {
@@ -77,7 +77,7 @@ a:hover {
 
 /* HERO */
 
-.hero {
+.hero__ {
   background-color: #eee;
   height: auto;
   display: flex;
@@ -85,7 +85,7 @@ a:hover {
   align-items: center;
 }
 
-.hero__headline {
+.hero__header {
   color: #222;
   text-align: center;
   font-family: "Fira Sans";
@@ -123,7 +123,7 @@ a:hover {
 }
 
 /* CARDS */
-.cards {
+.cards__ {
   width: 70%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -135,7 +135,7 @@ a:hover {
   margin: 100px auto auto;
 }
 
-.cards__headline {
+.cards__header {
   height: 100px;
   color: #222;
   font-family: "Fira Sans";
@@ -144,7 +144,7 @@ a:hover {
   justify-self: center;
   grid-column: span 4;
 }
-.cards--small {
+.cards__small {
   display: grid;
   grid-template-rows: 5fr 1fr 1fr;
   row-gap: 10px;
@@ -157,14 +157,14 @@ a:hover {
   background-color: #ebebeb;
 }
 
-.cards__img {
+.cards__small--img {
   align-self: center;
   width: 96px;
   height: auto;
   padding-top: 30px;
 }
 
-.cards--small--header {
+.cards__small--header {
   color: #222;
   align-self: end;
   font-family: "Fira Sans";
@@ -172,7 +172,7 @@ a:hover {
   font-weight: bold;
 }
 
-.cards--small--text {
+.cards__small--text {
   color: #000;
   align-self: start;
   font-family: "Fira Sans";
@@ -180,7 +180,7 @@ a:hover {
   font-weight: 400;
 }
 
-.cards--large {
+.cards__large {
   display: grid;
   grid-template-rows: 4fr 1fr 3fr;
   justify-content: center;
@@ -192,7 +192,7 @@ a:hover {
   grid-column: span 2;
 }
 
-.cards--large--header {
+.cards__large--header {
   align-self: end;
   color: #fff;
   font-family: "Fira Sans";
@@ -202,7 +202,7 @@ a:hover {
   line-height: normal;
 }
 
-.cards--large--text {
+.cards__large--text {
   justify-self: center;
   align-self: start;
   font-family: "Fira Sans";
@@ -211,7 +211,7 @@ a:hover {
   font-weight: 400;
 }
 
-.cards--large--button {
+.cards__large--button {
   justify-self: center;
   align-self: start;
   background-color: #343332;
@@ -224,7 +224,7 @@ a:hover {
 
 /* FOOTER */
 
-.footer {
+.footer__ {
   background-image: url(Footer-background.png);
   background-size: auto;
   display: flex;
@@ -252,7 +252,7 @@ a:hover {
   margin: 0px 0px 20px 30px;
 }
 
-.footer__box--header2 {
+.footer__box--textlarge {
   color: #222;
   font-family: "Fira sans";
   font-size: 22px;
@@ -278,7 +278,7 @@ a:hover {
   line-height: 150%;
 }
 
-.contact__button {
+.footer__box--button {
   width: 146px;
   height: 40px;
   color: #222;
@@ -294,7 +294,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .header__logo {
+  .header__img {
     margin-left: 18px;
   }
 
@@ -311,7 +311,7 @@ a:hover {
     margin-right: 18px;
   }
 
-  .hero__headline {
+  .hero__header {
     font-size: 36px;
   }
 
@@ -324,7 +324,7 @@ a:hover {
     height: 255.968px;
     flex-shrink: 0;
   }
-  .cards {
+  .cards__ {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -337,22 +337,22 @@ a:hover {
     width: 90%;
   }
 
-  .cards__headline {
+  .cards__header {
     grid-column: span 2;
     height: 50px;
     font-size: 36px;
     margin: 20px auto 20px;
   }
 
-  .cards--large {
+  .cards__large {
     height: auto;
   }
 
-  .card__5 {
+  .cards__large--media {
     margin-top: 20px;
   }
 
-  .footer {
+  .footer__ {
     display: flex;
     align-items: center;
   }
@@ -367,7 +367,7 @@ a:hover {
     font-size: 36px;
   }
 
-  .footer__box--header2 {
+  .footer__box--textlarge {
     font-size: 18px;
   }
 

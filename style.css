@@ -128,6 +128,9 @@ a:hover {
   animation-name: slide-buttons;
   animation-duration: 2s;
   animation-iteration-count: 1;
+  @media (max-width: 768px) {
+    animation: none;
+  }
 }
 
 .hero__img {
@@ -140,6 +143,7 @@ a:hover {
     width: 255.226px;
     height: 255.968px;
     flex-shrink: 0;
+    animation: none;
   }
 }
 

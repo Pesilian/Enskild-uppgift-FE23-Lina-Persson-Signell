@@ -25,10 +25,6 @@ body {
   height: 24px;
   width: 95px;
   flex-shrink: 0;
-  position: relative;
-  animation-name: zoocoman;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
 }
 
 .header__menu {
@@ -377,23 +373,6 @@ a:hover {
 
   .footer__box--text {
     width: 75%;
-  }
-}
-
-@keyframes zoocoman {
-  0% {
-    width: 95px;
-    height: 24px;
-  }
-
-  50% {
-    width: 105px;
-    height: 34px;
-  }
-
-  100% {
-    width: 95px;
-    height: 24px;
   }
 }
 

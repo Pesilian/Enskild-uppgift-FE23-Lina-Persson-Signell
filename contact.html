@@ -15,10 +15,9 @@
   <body>
     <!-- HEADER -->
 
-    <section class="contactform__">
+    <form class="contactform__">
       <h1 class="contactform__header">Contact form</h1>
       <h2 class="contactform__text">Well get back to you as soon as we can</h2>
-
       <!-- CONTACTFORM -->
 
       <div class="contactform__question--layout">
@@ -46,9 +45,9 @@
       <article class="contactform__question">
         <h3 class="contactform__question--text">Your e-mail</h3>
         <input
-          type="text"
+          type="email"
           class="contactform__question--mailinput"
-          name="mail"
+          name="email"
         />
       </article>
 
@@ -73,12 +72,9 @@
       <!-- QUESTION SIX -->
       <article class="contactform__question">
         <h3 class="contactform__question--text">Message</h3>
-        <input
-          type="text"
-          class="contactform__question--messageinput"
-          name="message"
-        />
+        <textarea class="contactform__question--messageinput"></textarea>
       </article>
+
       <!-- SEND BUTTON -->
       <button
         class="contactform__button"
@@ -87,6 +83,6 @@
       >
         Send
       </button>
-    </section>
+    </form>
   </body>
 </html>

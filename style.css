@@ -19,6 +19,7 @@ body {
 
 .header__logo {
   flex-shrink: 0;
+  margin-right: 49px;
 }
 
 .header__menu {

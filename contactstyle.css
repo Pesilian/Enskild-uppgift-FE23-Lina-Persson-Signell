@@ -34,15 +34,13 @@ body {
   margin: 0px 30px 20px;
 }
 
-.formquestions--layout {
+.formquestions-container {
   display: flex;
-}
-
-.formquestions {
   font-size: 12px;
+  width: 300px;
 }
 
-.formquestions__text {
+.formquestions__label {
   font-size: 12px;
   font-weight: 400;
   margin: 0px 35px 5px;
@@ -54,6 +52,7 @@ body {
   border: 1px solid #999;
   border-radius: 4px;
 }
+
 .formquestions__input--email,
 .formquestions__input--adress,
 .formquestions__input--phone {

@@ -21,30 +21,36 @@
       <h2 class="contactform__text">Well get back to you as soon as we can</h2>
       <!-- CONTACTFORM -->
 
-      <div class="formquestions--layout">
+      <section class="formquestions-container">
         <!-- QUESTION ONE -->
         <article class="formquestions">
-          <h3 class="formquestions__text">First name</h3>
+          <lable class="formquestions__label formquestions__label--firstname"
+            >First name</lable
+          >
           <input
             type="text"
-            class="formquestions__input formquestions__input--names"
+            class="formquestions__input formquestions__input--firstname"
             name="name"
           />
         </article>
         <!-- QUESTION TWO -->
         <article class="formquestions">
-          <h3 class="formquestions__text">Last name</h3>
+          <label class="formquestions__label formquestions__label--lastname"
+            >Last name</label
+          >
           <input
             type="text"
-            class="formquestions__input formquestions__input--names"
+            class="formquestions__input formquestions__input--lastname"
             name="name"
           />
         </article>
-      </div>
+      </section>
 
       <!-- QUESTION THREE -->
       <article class="formquestions">
-        <h3 class="formquestions__text">Your e-mail</h3>
+        <label class="formquestions__label formquestions__label--email"
+          >Your e-mail</label
+        >
         <input
           type="email"
           class="formquestions__input formquestions__input--email"
@@ -54,7 +60,9 @@
 
       <!-- QUESTION FOUR -->
       <article class="formquestions">
-        <h3 class="formquestions__text">Your adress</h3>
+        <label class="formquestions__label formquestions__label--adress"
+          >Your adress</label
+        >
         <input
           type="text"
           class="formquestions__input formquestions__input--adress"
@@ -63,7 +71,9 @@
       </article>
       <!-- QUESTION FIVE -->
       <article class="formquestions">
-        <h3 class="formquestions__text">Your phone number</h3>
+        <label class="formquestions__label formquestions__label--phone"
+          >Your phone number</label
+        >
         <input
           type="text"
           class="formquestions__input formquestions__input--phone"
@@ -72,19 +82,22 @@
       </article>
       <!-- QUESTION SIX -->
       <article class="formquestions">
-        <h3 class="formquestions__text">Message</h3>
+        <label class="formquestions__label formquestions__label--message"
+          >Message</label
+        >
         <textarea
           class="formquestions__input formquestions__input--message"
         ></textarea>
       </article>
 
       <!-- SEND BUTTON -->
-      <button
+
+      <input
+        type="submit"
+        value="submit"
         class="contactform__button"
-        type="button"
         onclick="window.open('', '_self', ''); window.close();"
-      >
-        Send
+      />
       </button>
     </form>
   </body>

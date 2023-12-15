@@ -33,7 +33,6 @@ body {
 
 .header__menu--item {
   color: #999;
-  font-family: "Fira Sans";
   font-size: 12px;
   letter-spacing: 0.204px;
   text-decoration: none;
@@ -148,15 +147,12 @@ body {
 .smallcard__title {
   color: #222;
   align-self: end;
-  font-family: "Fira Sans";
   font-size: 22px;
   font-weight: bold;
 }
 
 .smallcard__text {
   color: #000;
-  align-self: start;
-  font-family: "Fira Sans";
   font-size: 16px;
   font-weight: 400;
 }
@@ -165,7 +161,6 @@ body {
   display: grid;
   grid-template-rows: 4fr 1fr 3fr;
   justify-content: center;
-  align-content: center;
   border-radius: 3px;
   background-color: #343332;
   width: auto;
@@ -176,17 +171,12 @@ body {
 .largecard__title {
   align-self: end;
   color: #fff;
-  font-family: "Fira Sans";
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .largecard__text {
   justify-self: center;
-  align-self: start;
-  font-family: "Fira Sans";
   color: #ffffff99;
   font-size: 18px;
   font-weight: 400;
@@ -194,7 +184,6 @@ body {
 
 .largecard__button {
   justify-self: center;
-  align-self: start;
   background-color: #343332;
   color: #ffffff99;
   width: 150px;
@@ -229,21 +218,18 @@ body {
 
 .footerbox__heading {
   color: #222;
-  font-family: "Fira sans";
   font-size: 53px;
   margin: 0px 0px 20px 30px;
 }
 
 .footerbox__title {
   color: #222;
-  font-family: "Fira sans";
   font-size: 22px;
   margin: 0px 0px 10px 30px;
 }
 
 .footerbox__text {
   color: #222;
-  font-family: "Fira sans";
   font-size: 14px;
   line-height: 150%;
   margin: 0px 0px 50px 30px;
@@ -255,7 +241,6 @@ body {
   list-style: none;
   margin: 0px 0px 20px 30px;
   color: #222;
-  font-family: "Fira sans";
   font-size: 14px;
   line-height: 150%;
 }

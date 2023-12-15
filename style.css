@@ -301,12 +301,9 @@ body {
   }
 
   .cards--compressed {
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    justify-items: stretch;
     row-gap: 16px;
     column-gap: 16px;
     margin: 20px auto 20px;
@@ -315,14 +312,12 @@ body {
 
   .cards__heading--small {
     grid-column: span 2;
-    height: 50px;
     font-size: 36px;
     margin: 20px auto 20px;
   }
 
   .smallcard--small {
     height: 240px;
-    width: 160px;
   }
 
   .smallcard__img--small {
@@ -336,19 +331,16 @@ body {
     height: 216px;
   }
 
-  .largecard--margintop {
-    height: 216px;
+  .largecard--alignment {
+    align-self: end;
   }
 
   .footer--small {
-    display: flex;
-    align-items: center;
     margin-top: 150px;
   }
 
   .footerbox--small {
     width: 343px;
-    height: 420px;
     margin: auto;
   }
 

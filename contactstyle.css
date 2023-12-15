@@ -10,12 +10,10 @@ body {
   font-family: "Fira sans", sans-serif;
   position: relative;
   width: auto;
-  margin: 0 auto;
   background-image: url(Footer-background.png);
 }
 
-.contactform__ {
-  font-family: "Fira sans";
+.contactform {
   display: block;
   margin: 30px auto 30px;
   background-color: #fff;
@@ -27,61 +25,54 @@ body {
 .contactform__header {
   color: #222;
   font-size: 53px;
-  font-family: "Fira sans";
-  color: #080808;
   margin: 30px 30px 0px;
 }
 
 .contactform__text {
   color: #222;
   font-size: 18px;
-  font-family: "Fira sans";
-  color: #080808;
   margin: 0px 30px 20px;
 }
 
-.contactform__question {
+.formquestions--layout {
+  display: flex;
+}
+
+.formquestions {
   font-size: 12px;
 }
 
-.contactform__question--text {
+.formquestions__text {
   font-size: 12px;
   font-weight: 400;
   margin: 0px 35px 5px;
 }
 
-.contactform__question--layout {
-  display: flex;
-}
-
-.contactform__question--nameinput {
+.formquestions__input {
   width: 150px;
   margin: 0px 0px 10px 30px;
   border: 1px solid #999;
   border-radius: 4px;
 }
-.contactform__question--phoneinput,
-.contactform__question--adressinput,
-.contactform__question--mailinput {
+.formquestions__input--email,
+.formquestions__input--adress,
+.formquestions__input--phone {
   width: 330px;
   margin: 0px 0px 10px 30px;
   border: 1px solid #999;
-  border-radius: 4px;
 }
 
-.contactform__question--messageinput {
+.formquestions__input--message {
   width: 330px;
   height: 150px;
   margin: 0px 30px 10px;
   border: 1px solid #999;
-  border-radius: 4px;
 }
 
 .contactform__button {
   width: 200px;
   height: 40px;
   color: #222;
-  text-align: center;
   font-family: "Fira sans";
   font-size: 14px;
   letter-spacing: 0.204px;

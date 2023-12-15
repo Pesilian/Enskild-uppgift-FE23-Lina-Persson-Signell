@@ -15,64 +15,67 @@
   <body>
     <!-- HEADER -->
 
-    <form class="contactform__">
+    <form class="contactform">
       <h1 class="contactform__header">Contact form</h1>
+
       <h2 class="contactform__text">Well get back to you as soon as we can</h2>
       <!-- CONTACTFORM -->
 
-      <div class="contactform__question--layout">
+      <div class="formquestions--layout">
         <!-- QUESTION ONE -->
-        <article class="contactform__question">
-          <h3 class="contactform__question--text">First name</h3>
+        <article class="formquestions">
+          <h3 class="formquestions__text">First name</h3>
           <input
             type="text"
-            class="contactform__question--nameinput"
+            class="formquestions__input formquestions__input--names"
             name="name"
           />
         </article>
         <!-- QUESTION TWO -->
-        <article class="contactform__question">
-          <h3 class="contactform__question--text">Last name</h3>
+        <article class="formquestions">
+          <h3 class="formquestions__text">Last name</h3>
           <input
             type="text"
-            class="contactform__question--nameinput"
+            class="formquestions__input formquestions__input--names"
             name="name"
           />
         </article>
       </div>
 
       <!-- QUESTION THREE -->
-      <article class="contactform__question">
-        <h3 class="contactform__question--text">Your e-mail</h3>
+      <article class="formquestions">
+        <h3 class="formquestions__text">Your e-mail</h3>
         <input
           type="email"
-          class="contactform__question--mailinput"
+          class="formquestions__input formquestions__input--email"
           name="email"
         />
       </article>
 
       <!-- QUESTION FOUR -->
-      <article class="contactform__question">
-        <h3 class="contactform__question--text">Your adress</h3>
+      <article class="formquestions">
+        <h3 class="formquestions__text">Your adress</h3>
         <input
           type="text"
-          class="contactform__question--adressinput"
+          class="formquestions__input formquestions__input--adress"
           name="adress"
         />
       </article>
       <!-- QUESTION FIVE -->
-      <article class="contactform__question">
-        <h3 class="contactform__question--text">Your phone number</h3>
+      <article class="formquestions">
+        <h3 class="formquestions__text">Your phone number</h3>
         <input
           type="text"
-          class="contactform__question--phoneinput"
+          class="formquestions__input formquestions__input--phone"
           name="phone"
         />
       </article>
       <!-- QUESTION SIX -->
-      <article class="contactform__question">
-        <h3 class="contactform__question--text">Message</h3>
-        <textarea class="contactform__question--messageinput"></textarea>
+      <article class="formquestions">
+        <h3 class="formquestions__text">Message</h3>
+        <textarea
+          class="formquestions__input formquestions__input--message"
+        ></textarea>
       </article>
 
       <!-- SEND BUTTON -->

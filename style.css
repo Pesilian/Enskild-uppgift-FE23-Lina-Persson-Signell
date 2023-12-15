@@ -378,6 +378,11 @@ a:hover {
   @media (max-width: 768px) {
     display: none;
   }
+  /* @media (prefers-reduced-motion: no-preference) {
+    animation: pulsing-contactbutton;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  } */
 }
 
 @keyframes pulsing-header {
@@ -409,3 +414,18 @@ a:hover {
     left: 0%;
   }
 }
+
+/* @keyframes pulsing-contactbutton {
+  0% {
+    width: 146px;
+    height: 40px;
+  }
+  50% {
+    width: 166px;
+    height: 60px;
+  }
+  0% {
+    width: 146px;
+    height: 40px;
+  }
+} */

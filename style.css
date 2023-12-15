@@ -36,20 +36,14 @@ body {
   font-size: 12px;
   letter-spacing: 0.204px;
   text-decoration: none;
-  /* & :hover {
-    color: #c0c0c0;
-  } */
 }
 
-a:link {
-  color: #999;
+.header__menu--item:hover {
+  color: #000;
+  font-weight: bold;
 }
 
-a:visited {
-  color: #999;
-}
-
-a:active {
+.header__menu--item:active {
   color: #000;
 }
 
